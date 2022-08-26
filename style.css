@@ -35,11 +35,13 @@ body{
     /* font-size: 2rem;
     margin-bottom: 1rem; */
 }
-.display-result-title{
+
+.display-result-title h2{
     display: block;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     clear: right;
+    border: 2px solid red;
 }
 
 .container{
@@ -109,7 +111,7 @@ body{
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 5px 10px 20px -10px rgba(0,0,0,0.79);
-    margin: 2rem 0;
+    margin: 20rem 0;
 }
 .meal-img img{
     width: 100%;
@@ -166,11 +168,11 @@ body{
 .showRecipe{
     display: block;
 }
-.showResultTitle{
+.showResultTitle h2{
     display: block;
     font-weight: 600;
-    font-size: 1.6rem;
-    /* clear: right; */
+    font-size: 2rem;
+    clear: right;
 }
 .meal-details-content{
     margin: 2rem;
